@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/nillhex/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -111,9 +111,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="nvim"
 alias vim="nvim"
-alias mt="cd ~/Documents/meituan"
-alias imt="cd ~/Documents/meituan/imeituan"
-alias train="cd ~/Documents/meituan/imeituan-train"
+alias mt="cd $HOME/Documents/meituan"
+alias imt="cd $HOME/Documents/meituan/imeituan"
+alias train="cd $HOME/Documents/meituan/imeituan-train"
 alias surge="export https_proxy=http://127.0.0.1:8888;export http_proxy=http://127.0.0.1:8888;export all_proxy=socks5://127.0.0.1:8889"
 
 export NVM_DIR="$HOME/.nvm"
