@@ -24,6 +24,11 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = true
 
+
+[[custom_plugins]]
+name = 'iandingx/leetcode.vim'
+merged = false
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
