@@ -25,7 +25,7 @@
     enable_statusline_mode = true
     bootstrap_before = "myspacevim#before"
     bootstrap_after  = "myspacevim#after"
-    
+    filetree_direction = "left"
 
 [[custom_plugins]]
 name = 'iandingx/leetcode.vim'
